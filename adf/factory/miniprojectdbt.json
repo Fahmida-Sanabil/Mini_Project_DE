@@ -1,0 +1,9 @@
+{
+	"name": "miniprojectdbt",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "58cc798b-1ab8-4508-a844-708333d94041",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "Snowflake2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "VZ45400",
+			"user": "Fahmida",
+			"database": "MINI_PROJECT",
+			"warehouse": "COMPUTE_WH",
+			"role": "ACCOUNTADMIN",
+			"host": "VITGXNH-VZ45400.snowflakecomputing.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNGYyNzUxMy1mZDE0LTQwMGUtYTAzZi1kYWQxYzNmMmM4M2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
