@@ -1,0 +1,17 @@
+
+version: 2
+
+sources:
+  - name: source_name
+    database: MINI_PROJECT
+    schema: RAW
+    tables:
+      - name: CUSTOMERS
+        description: "Table containing customer details"
+      - name: PRODUCTS
+        description: "Table containing product details"
+      - name: TRANSACTION
+        description: "Table containing transaction information"
+      - name: REGION
+        description: "Table containing region information of the customer"
+    
